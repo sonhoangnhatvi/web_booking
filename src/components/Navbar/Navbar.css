@@ -1,0 +1,47 @@
+/* Css for navbar */
+.navbar__container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 60px 50px;
+  color: #fff;
+}
+
+.navbar__header {
+  display: flex;
+  grid-column: 1/-1;
+  justify-content: space-between;
+}
+
+.navbar__title {
+  margin-top: 20px;
+}
+
+.navbar_btn_group {
+  padding-top: 10px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.navbar_btn_group .btn__login {
+  padding: 5px;
+  margin-left: 20px;
+  color: #003580;
+}
+
+.navbar_btn_group .btn__register {
+  padding: 5px;
+  margin-left: 20px;
+  color: #003580;
+}
+
+.navbar_items {
+  display: flex;
+  grid-column: 1/-1;
+  grid-row: 2/-1;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.navbar_items .navbar__item:first-child {
+  margin-left: 0px !important;
+}

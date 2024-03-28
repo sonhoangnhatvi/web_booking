@@ -1,0 +1,14 @@
+/* Css for city item */
+.city_item {
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+/* Css for city info */
+.city_info p {
+  font-size: 22px;
+  font-weight: bold;
+}

@@ -1,0 +1,16 @@
+/* Css for hotel type item */
+li {
+  list-style: none;
+}
+
+.hotel_type_item {
+  display: block;
+  height: 150px;
+  width: 220px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h3 {
+  margin-top: 5px;
+}

@@ -1,0 +1,92 @@
+/* Css for search list item */
+.search_list_item {
+  border: 0.5px solid #E5E8E8;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  row-gap: 10px;
+}
+
+.search_list_item_img {
+  grid-column: 1/span 2;
+  width: 250px;
+  height: 250px;
+}
+
+.search_list_item_info {
+  grid-column: 3/span 4;
+  margin-left: 20px;
+}
+
+.search_list_item_name {
+  color: #2E86C1;
+}
+
+.search_list_item_info_margin {
+  margin-top: 10px;
+}
+
+.search_list_item_rate_price_other {
+  grid-column: 7/span 2;
+  margin-left: 20px;
+}
+
+.btn_check_status {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.search_list_item_tag {
+  display: inline-block;
+  color: #fff;
+  background-color: green;
+  padding: 4px 3px;
+  border-radius: 5px;
+}
+
+.search_list_item_cancel_status {
+  font-weight: bold;
+  color: green;
+}
+
+.search_list_item_cancel_status_detail {
+  color: green;
+}
+
+.search_list_item_rate_price_other {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.search_list_item_rate_text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.search_list_item_rate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search_list_item_rate_number {
+  background-color: #003580;
+  padding: 5px;
+  color: #fff;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_list_item_price {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: end;
+}
+
+.tax_fee_info {
+  color: #99A3A4;
+  text-align: end;
+}

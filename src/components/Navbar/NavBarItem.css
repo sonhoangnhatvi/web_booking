@@ -1,0 +1,16 @@
+/* Css for navbar item */
+.navbar__item {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.navbar_item_active {
+  border-radius: 15px;
+  border: 1px solid #fff;
+  padding: 5px;
+}
+
+.navbar__item_description {
+  margin-left: 10px;
+}

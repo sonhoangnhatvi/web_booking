@@ -1,0 +1,46 @@
+/* Hotel item css */
+li {
+  list-style: none;
+}
+
+.hotel_item {
+  display: block;
+  height: 290px;
+  width: 280px;
+}
+
+h3 {
+  margin-top: 5px;
+}
+
+.hotel_name {
+  color: #571C8D;
+  text-decoration: underline;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.hotel_city {
+  font-weight: lighter;
+}
+
+.rating_info {
+  display: flex;
+  align-items: center;
+}
+
+.rating_score {
+  background-color: #003580;
+  padding: 5px;
+  color: #fff;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.rating_type {
+  display: inline-block;
+  vertical-align: center;
+}

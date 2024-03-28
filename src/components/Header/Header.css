@@ -1,0 +1,99 @@
+/* Css for header */
+.header_component {
+  color: #fff;
+  padding-top: 20px;
+  position: relative;
+}
+
+.header_component p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Css for btn sign in register*/
+.btn_sign_in_register {
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 10px;
+  background-color: #0071C2;
+  color: #fff;
+  border: none;
+}
+
+/* Css for search area */
+.search_area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid orange;
+  padding: 5px;
+  color: #cbdad9;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  width: 100%;
+}
+
+.search_area svg {
+  color: #cbdad9;
+}
+
+.search_area .search_keyword {
+  border: none;
+  margin-left: 10px;
+}
+
+/* Css for date range */
+.hide {
+  display: none;
+}
+
+.date_input {
+  border: none;
+  margin-left: 10px;
+  width: 170px;
+}
+
+.date_input:focus {
+  outline: none;
+}
+
+.date_input_area {
+  position: relative;
+}
+
+.rdrDateRangeWrapper {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 9000;
+}
+
+/* Css for room */
+.room_info {
+  color: #cbdad9;
+  display: flex;
+  clear: both;
+}
+
+.room_info svg {
+  color: #cbdad9;
+}
+
+.room_info p {
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+
+/* Css for link to /search */
+.btn_search {
+  text-decoration: none;
+  padding: 8px 10px;
+  background-color: #0071C2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}

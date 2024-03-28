@@ -1,0 +1,8 @@
+/* Css for Button component */
+.button {
+  padding: 8px 10px;
+  background-color: #0071C2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}

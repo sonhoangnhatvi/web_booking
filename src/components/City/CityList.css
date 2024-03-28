@@ -1,0 +1,8 @@
+ /* Css for city list */
+ .city_list {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 50px;
+   padding: 0;
+   margin-bottom: 50px;
+ }

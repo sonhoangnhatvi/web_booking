@@ -1,0 +1,14 @@
+/* Css for home */
+.header_area {
+  background-color: #003580;
+}
+
+.header_area_content {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.body_area {
+  margin: 0 auto;
+  max-width: 1200px;
+}

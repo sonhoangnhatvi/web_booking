@@ -1,0 +1,84 @@
+/* Css for Detail component */
+.header_area {
+  background-color: #003580;
+}
+
+.header_area_content {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.body_area {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 50px;
+}
+
+.hotel_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel_address {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.hotel_address p {
+  margin-top: 0;
+  padding-left: 5px;
+}
+
+.hotel_distance {
+  color: #5779c1;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.hotel_price {
+  color: #3cba4c;
+  font-weight: 600;
+}
+
+.hotel_photo_list {
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+
+.hotel_photo_list .hotel_photo {
+  height: auto;
+  width: 400px;
+}
+
+.hotel_bottom {
+  display: flex;
+  margin-top: 50px;
+}
+
+.hotel_bottom_nine_nights_price {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.hotel_bottom_nine_nights {
+  width: 900px;
+  padding: 20px 10px;
+  background-color: #EBF5FB;
+}
+
+.hotel_bottom_nine_nights h4 {
+  color: #707B7C;
+}
+
+.hotel_bottom_nine_nights .hotel_bottom_nine_nights_title .hotel_bottom_nine_nights_content {
+  margin-bottom: 10px;
+}
+
+.hotel_bottom_btn {
+  text-align: center;
+}

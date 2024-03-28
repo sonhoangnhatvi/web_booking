@@ -1,0 +1,11 @@
+/* Css for hotel list */
+.hotel_list_title {
+  margin-top: 50px;
+}
+
+.hotel_list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-top: 20px;
+}

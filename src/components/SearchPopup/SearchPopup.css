@@ -1,0 +1,117 @@
+/* Reset CSS */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Css for search popup */
+.search-popup-padding {
+  display: inline-block;
+  padding: 5px 0;
+}
+
+.search-popup-area {
+  background-color: #F8C471;
+  padding: 10px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.search-popup-title {
+  color: #707B7C;
+}
+
+#input-destination {
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  display: inline-block;
+  height: 40px;
+}
+
+#input-check-in-date {
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  display: inline-block;
+  height: 40px;
+  padding-left: 5px;
+}
+
+.input-min-price-per-night {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.search_popup_options {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  row-gap: 10px;
+}
+
+.label-for-input-min-price-per-night {
+  font-size: 14px;
+  grid-column: 1/span 2;
+  color: #707B7C;
+}
+
+#input-min-price-per-night {
+  grid-column: 4/span 1;
+  width: 80px;
+}
+
+.label-for-input-max-price-per-night {
+  font-size: 14px;
+  grid-column: 1/span 2;
+  color: #707B7C;
+}
+
+#input-max-price-per-night {
+  grid-column: 4/span 1;
+  width: 80px;
+}
+
+.label-for-input-adult {
+  font-size: 14px;
+  grid-column: 1/span 2;
+  color: #707B7C;
+}
+
+#input-adult {
+  grid-column: 4/span 1;
+  width: 80px;
+}
+
+.label-for-input-children {
+  font-size: 14px;
+  grid-column: 1/span 2;
+  color: #707B7C;
+}
+
+#input-children {
+  grid-column: 4/span 1;
+  width: 80px;
+}
+
+.label-for-input-room {
+  font-size: 14px;
+  grid-column: 1/span 2;
+  color: #707B7C;
+}
+
+#input-room {
+  grid-column: 4/span 1;
+  width: 80px;
+}
+
+.search_popup_options_item_padding {
+  padding-top: 5px;
+}
+
+.btn_search_popup {
+  margin-top: 10px;
+  width: 100%;
+}

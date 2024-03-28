@@ -1,0 +1,8 @@
+/* Css for footer list */
+.footer_list {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  justify-content: space-between;
+  padding-left: 0px;
+}
