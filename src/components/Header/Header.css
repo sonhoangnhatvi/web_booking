@@ -16,7 +16,7 @@
   margin-top: 10px;
   margin-bottom: 50px;
   padding: 10px;
-  background-color: #0071C2;
+  background-color: #0071c2;
   color: #fff;
   border: none;
 }
@@ -87,13 +87,22 @@
   margin-left: 10px;
 }
 
-
 /* Css for link to /search */
 .btn_search {
   text-decoration: none;
   padding: 8px 10px;
-  background-color: #0071C2;
+  background-color: #0071c2;
   color: #fff;
   border: none;
   border-radius: 5px;
+}
+
+/* On screens that are 576px or less */
+@media screen and (max-width: 576px) {
+  .search_area {
+    display: grid;
+    gap: 10px;
+    transform: translateY(80%);
+    max-width: 400px;
+  }
 }

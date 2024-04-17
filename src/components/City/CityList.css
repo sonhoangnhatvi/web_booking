@@ -1,8 +1,27 @@
- /* Css for city list */
- .city_list {
-   display: flex;
-   justify-content: space-between;
-   margin-top: 50px;
-   padding: 0;
-   margin-bottom: 50px;
- }
+/* Css for city list */
+.city_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 10px;
+}
+
+/* On screens that are 768px or less*/
+@media screen and (max-width: 768px) {
+  .city_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .city_list {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+}

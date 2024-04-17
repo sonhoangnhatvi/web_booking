@@ -37,3 +37,13 @@
   padding: 10px;
   margin-left: 5px;
 }
+
+@media screen and (max-width: 576px) {
+  .registration_form_area {
+    padding: 0 10px;
+  }
+
+  .registration_form input {
+    margin-bottom: 10px;
+  }
+}

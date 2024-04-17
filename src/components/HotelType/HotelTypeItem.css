@@ -1,16 +1,40 @@
 /* Css for hotel type item */
 li {
   list-style: none;
+  height: fit-content;
 }
 
 .hotel_type_item {
-  display: block;
-  height: 150px;
-  width: 220px;
+  width: 100%; /* Fill the entire width of the <li> */
+  object-fit: cover; /* Ensure the image covers the entire area of the <li> */
+  height: 120px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 h3 {
   margin-top: 5px;
+}
+
+/* On screens that are 768px or less*/
+@media screen and (max-width: 768px) {
+  .hotel_type_item {
+    display: block;
+    width: 100%; /* Fill the entire width of the <li> */
+    object-fit: cover; /* Ensure the image covers the entire area of the <li> */
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hotel_type_item {
+    display: block;
+    width: 100%; /* Fill the entire width of the <li> */
+    object-fit: cover; /* Ensure the image covers the entire area of the <li> */
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
 }

@@ -2,7 +2,7 @@
 .navbar__item {
   display: flex;
   align-items: center;
-  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 .navbar_item_active {

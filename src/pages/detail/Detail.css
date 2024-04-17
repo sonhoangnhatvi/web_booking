@@ -1,4 +1,8 @@
 /* Css for Detail component */
+.body_area {
+  padding: 10px;
+}
+
 .header_area {
   background-color: #003580;
 }
@@ -15,8 +19,17 @@
 }
 
 .hotel_top {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.hotel_top h2 {
+  grid-column: 1/4;
+}
+
+.hotel_top .btnResOrBook {
+  grid-column: 5/-1;
 }
 
 .hotel_address {
@@ -51,13 +64,19 @@
 }
 
 .hotel_photo_list .hotel_photo {
+  width: 100%; /* Fill the entire width of the <li> */
+  object-fit: cover; /* Ensure the image covers the entire area of the <li> */
   height: auto;
-  width: 400px;
 }
 
 .hotel_bottom {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
   margin-top: 50px;
+}
+
+.hotel_bottom .hotel_bottom_description {
+  grid-column: 1/7;
 }
 
 .hotel_bottom_nine_nights_price {
@@ -66,19 +85,72 @@
 }
 
 .hotel_bottom_nine_nights {
-  width: 900px;
+  grid-column: 7/-1;
   padding: 20px 10px;
-  background-color: #EBF5FB;
+  background-color: #ebf5fb;
 }
 
 .hotel_bottom_nine_nights h4 {
-  color: #707B7C;
+  color: #707b7c;
 }
 
-.hotel_bottom_nine_nights .hotel_bottom_nine_nights_title .hotel_bottom_nine_nights_content {
+.hotel_bottom_nine_nights
+  .hotel_bottom_nine_nights_title
+  .hotel_bottom_nine_nights_content {
   margin-bottom: 10px;
 }
 
 .hotel_bottom_btn {
   text-align: center;
+}
+
+/* On screens that are 768px or less*/
+@media screen and (max-width: 768px) {
+  .hotel_photo_list {
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .body_area {
+    margin-top: 110px;
+  }
+  .hotel_photo_list {
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+
+  .hotel_bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
+
+  .hotel_bottom_nine_nights {
+    margin-top: 10px;
+  }
+
+  .hotel_top {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .hotel_top h2 {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+  }
+
+  .hotel_top .btnResOrBook {
+    margin-top: 5px;
+    grid-column: 1/-1;
+    grid-row: 2/-1;
+  }
 }

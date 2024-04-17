@@ -1,4 +1,6 @@
 /* Css for home */
+.container {
+}
 .header_area {
   background-color: #003580;
 }
@@ -11,4 +13,18 @@
 .body_area {
   margin: 0 auto;
   max-width: 1200px;
+}
+
+/* On screens that are 768px or less*/
+@media screen and (max-width: 768px) {
+  .header_area_content {
+    padding: 10px;
+  }
+}
+
+/* On screens that are 576px or less */
+@media screen and (max-width: 576px) {
+  .header_area_content {
+    padding: 10px;
+  }
 }

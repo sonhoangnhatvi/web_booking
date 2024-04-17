@@ -5,8 +5,11 @@ li {
 
 .hotel_item {
   display: block;
-  height: 290px;
-  width: 280px;
+  width: 100%; /* Fill the entire width of the <li> */
+  object-fit: cover; /* Ensure the image covers the entire area of the <li> */
+  height: 120px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 h3 {
@@ -14,7 +17,7 @@ h3 {
 }
 
 .hotel_name {
-  color: #571C8D;
+  color: #571c8d;
   text-decoration: underline;
   margin-top: 10px;
   font-weight: bold;
